@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NSTimerDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="chX-QE-PZa">
+                            <items>
+                                <label alignment="center" text="- : - : -" id="bOO-ha-zDH"/>
+                                <button width="1" alignment="left" title="Start" id="r63-kI-TRH">
+                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                    <connections>
+                                        <action selector="StartTimer" destination="AgC-eL-Hgc" id="KQi-W3-Kdh"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Pause" id="GWc-kC-kEh">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                    <connections>
+                                        <action selector="PauseTimer" destination="AgC-eL-Hgc" id="Ucu-W3-gyh"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Stop" id="MwT-aX-bwL">
+                                    <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                    <connections>
+                                        <action selector="StopTimer" destination="AgC-eL-Hgc" id="me1-t5-YFM"/>
+                                    </connections>
+                                </button>
+                                <label alignment="center" text="- : - : -" id="dSP-6t-VkP"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="timeCounter" destination="bOO-ha-zDH" id="PiP-hp-sVY"/>
+                        <outlet property="totalTimeSpend" destination="dSP-6t-VkP" id="lzY-4t-YWG"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

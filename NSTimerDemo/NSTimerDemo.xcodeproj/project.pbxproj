@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1E84FC1C6C8CB90070411C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E84FB1C6C8CB90070411C /* AppDelegate.swift */; };
+		EC1E84FE1C6C8CB90070411C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E84FD1C6C8CB90070411C /* ViewController.swift */; };
+		EC1E85011C6C8CB90070411C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E84FF1C6C8CB90070411C /* Main.storyboard */; };
+		EC1E85031C6C8CB90070411C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1E85021C6C8CB90070411C /* Assets.xcassets */; };
+		EC1E85061C6C8CB90070411C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E85041C6C8CB90070411C /* LaunchScreen.storyboard */; };
+		EC1E850B1C6C8CB90070411C /* NSTimerDemo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EC1E850A1C6C8CB90070411C /* NSTimerDemo WatchKit App.app */; };
+		EC1E85111C6C8CB90070411C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E850F1C6C8CB90070411C /* Interface.storyboard */; };
+		EC1E85131C6C8CB90070411C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1E85121C6C8CB90070411C /* Assets.xcassets */; };
+		EC1E851A1C6C8CB90070411C /* NSTimerDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EC1E85191C6C8CB90070411C /* NSTimerDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EC1E851F1C6C8CB90070411C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E851E1C6C8CB90070411C /* InterfaceController.swift */; };
+		EC1E85211C6C8CB90070411C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E85201C6C8CB90070411C /* ExtensionDelegate.swift */; };
+		EC1E85231C6C8CB90070411C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1E85221C6C8CB90070411C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1E850C1C6C8CB90070411C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1E84F01C6C8CB80070411C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1E85091C6C8CB90070411C;
+			remoteInfo = "NSTimerDemo WatchKit App";
+		};
+		EC1E851B1C6C8CB90070411C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1E84F01C6C8CB80070411C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1E85181C6C8CB90070411C;
+			remoteInfo = "NSTimerDemo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC1E852A1C6C8CB90070411C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EC1E851A1C6C8CB90070411C /* NSTimerDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E852E1C6C8CB90070411C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EC1E850B1C6C8CB90070411C /* NSTimerDemo WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC1E84F81C6C8CB90070411C /* NSTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1E84FB1C6C8CB90070411C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1E84FD1C6C8CB90070411C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1E85001C6C8CB90070411C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1E85021C6C8CB90070411C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1E85051C6C8CB90070411C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1E85071C6C8CB90070411C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1E850A1C6C8CB90070411C /* NSTimerDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTimerDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1E85101C6C8CB90070411C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EC1E85121C6C8CB90070411C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1E85141C6C8CB90070411C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1E85191C6C8CB90070411C /* NSTimerDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NSTimerDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1E851E1C6C8CB90070411C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EC1E85201C6C8CB90070411C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EC1E85221C6C8CB90070411C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1E85241C6C8CB90070411C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1E84F51C6C8CB90070411C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E85161C6C8CB90070411C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1E84EF1C6C8CB80070411C = {
+			isa = PBXGroup;
+			children = (
+				EC1E84FA1C6C8CB90070411C /* NSTimerDemo */,
+				EC1E850E1C6C8CB90070411C /* NSTimerDemo WatchKit App */,
+				EC1E851D1C6C8CB90070411C /* NSTimerDemo WatchKit Extension */,
+				EC1E84F91C6C8CB90070411C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1E84F91C6C8CB90070411C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E84F81C6C8CB90070411C /* NSTimerDemo.app */,
+				EC1E850A1C6C8CB90070411C /* NSTimerDemo WatchKit App.app */,
+				EC1E85191C6C8CB90070411C /* NSTimerDemo WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1E84FA1C6C8CB90070411C /* NSTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E84FB1C6C8CB90070411C /* AppDelegate.swift */,
+				EC1E84FD1C6C8CB90070411C /* ViewController.swift */,
+				EC1E84FF1C6C8CB90070411C /* Main.storyboard */,
+				EC1E85021C6C8CB90070411C /* Assets.xcassets */,
+				EC1E85041C6C8CB90070411C /* LaunchScreen.storyboard */,
+				EC1E85071C6C8CB90070411C /* Info.plist */,
+			);
+			path = NSTimerDemo;
+			sourceTree = "<group>";
+		};
+		EC1E850E1C6C8CB90070411C /* NSTimerDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E850F1C6C8CB90070411C /* Interface.storyboard */,
+				EC1E85121C6C8CB90070411C /* Assets.xcassets */,
+				EC1E85141C6C8CB90070411C /* Info.plist */,
+			);
+			path = "NSTimerDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		EC1E851D1C6C8CB90070411C /* NSTimerDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E851E1C6C8CB90070411C /* InterfaceController.swift */,
+				EC1E85201C6C8CB90070411C /* ExtensionDelegate.swift */,
+				EC1E85221C6C8CB90070411C /* Assets.xcassets */,
+				EC1E85241C6C8CB90070411C /* Info.plist */,
+			);
+			path = "NSTimerDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1E84F71C6C8CB90070411C /* NSTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1E852F1C6C8CB90070411C /* Build configuration list for PBXNativeTarget "NSTimerDemo" */;
+			buildPhases = (
+				EC1E84F41C6C8CB90070411C /* Sources */,
+				EC1E84F51C6C8CB90070411C /* Frameworks */,
+				EC1E84F61C6C8CB90070411C /* Resources */,
+				EC1E852E1C6C8CB90070411C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1E850D1C6C8CB90070411C /* PBXTargetDependency */,
+			);
+			name = NSTimerDemo;
+			productName = NSTimerDemo;
+			productReference = EC1E84F81C6C8CB90070411C /* NSTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1E85091C6C8CB90070411C /* NSTimerDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1E852B1C6C8CB90070411C /* Build configuration list for PBXNativeTarget "NSTimerDemo WatchKit App" */;
+			buildPhases = (
+				EC1E85081C6C8CB90070411C /* Resources */,
+				EC1E852A1C6C8CB90070411C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1E851C1C6C8CB90070411C /* PBXTargetDependency */,
+			);
+			name = "NSTimerDemo WatchKit App";
+			productName = "NSTimerDemo WatchKit App";
+			productReference = EC1E850A1C6C8CB90070411C /* NSTimerDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EC1E85181C6C8CB90070411C /* NSTimerDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1E85271C6C8CB90070411C /* Build configuration list for PBXNativeTarget "NSTimerDemo WatchKit Extension" */;
+			buildPhases = (
+				EC1E85151C6C8CB90070411C /* Sources */,
+				EC1E85161C6C8CB90070411C /* Frameworks */,
+				EC1E85171C6C8CB90070411C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSTimerDemo WatchKit Extension";
+			productName = "NSTimerDemo WatchKit Extension";
+			productReference = EC1E85191C6C8CB90070411C /* NSTimerDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1E84F01C6C8CB80070411C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yogesh Bharate";
+				TargetAttributes = {
+					EC1E84F71C6C8CB90070411C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EC1E85091C6C8CB90070411C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EC1E85181C6C8CB90070411C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EC1E84F31C6C8CB80070411C /* Build configuration list for PBXProject "NSTimerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1E84EF1C6C8CB80070411C;
+			productRefGroup = EC1E84F91C6C8CB90070411C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1E84F71C6C8CB90070411C /* NSTimerDemo */,
+				EC1E85091C6C8CB90070411C /* NSTimerDemo WatchKit App */,
+				EC1E85181C6C8CB90070411C /* NSTimerDemo WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1E84F61C6C8CB90070411C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1E85061C6C8CB90070411C /* LaunchScreen.storyboard in Resources */,
+				EC1E85031C6C8CB90070411C /* Assets.xcassets in Resources */,
+				EC1E85011C6C8CB90070411C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E85081C6C8CB90070411C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1E85131C6C8CB90070411C /* Assets.xcassets in Resources */,
+				EC1E85111C6C8CB90070411C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E85171C6C8CB90070411C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1E85231C6C8CB90070411C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1E84F41C6C8CB90070411C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1E84FE1C6C8CB90070411C /* ViewController.swift in Sources */,
+				EC1E84FC1C6C8CB90070411C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E85151C6C8CB90070411C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1E85211C6C8CB90070411C /* ExtensionDelegate.swift in Sources */,
+				EC1E851F1C6C8CB90070411C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1E850D1C6C8CB90070411C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1E85091C6C8CB90070411C /* NSTimerDemo WatchKit App */;
+			targetProxy = EC1E850C1C6C8CB90070411C /* PBXContainerItemProxy */;
+		};
+		EC1E851C1C6C8CB90070411C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1E85181C6C8CB90070411C /* NSTimerDemo WatchKit Extension */;
+			targetProxy = EC1E851B1C6C8CB90070411C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1E84FF1C6C8CB90070411C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1E85001C6C8CB90070411C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1E85041C6C8CB90070411C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1E85051C6C8CB90070411C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1E850F1C6C8CB90070411C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1E85101C6C8CB90070411C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1E85251C6C8CB90070411C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1E85261C6C8CB90070411C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1E85281C6C8CB90070411C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSTimerDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.NSTimerDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		EC1E85291C6C8CB90070411C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSTimerDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.NSTimerDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		EC1E852C1C6C8CB90070411C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = NSTimerDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "NSTimerDemo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.NSTimerDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		EC1E852D1C6C8CB90070411C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = NSTimerDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "NSTimerDemo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.NSTimerDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		EC1E85301C6C8CB90070411C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.NSTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC1E85311C6C8CB90070411C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.NSTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1E84F31C6C8CB80070411C /* Build configuration list for PBXProject "NSTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1E85251C6C8CB90070411C /* Debug */,
+				EC1E85261C6C8CB90070411C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1E85271C6C8CB90070411C /* Build configuration list for PBXNativeTarget "NSTimerDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1E85281C6C8CB90070411C /* Debug */,
+				EC1E85291C6C8CB90070411C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1E852B1C6C8CB90070411C /* Build configuration list for PBXNativeTarget "NSTimerDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1E852C1C6C8CB90070411C /* Debug */,
+				EC1E852D1C6C8CB90070411C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1E852F1C6C8CB90070411C /* Build configuration list for PBXNativeTarget "NSTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1E85301C6C8CB90070411C /* Debug */,
+				EC1E85311C6C8CB90070411C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1E84F01C6C8CB80070411C /* Project object */;
+}
